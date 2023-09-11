@@ -1,4 +1,4 @@
-package com.FXTrading.services;
+package com.FXTrading.INR;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import com.FXTrading.model.FXTradingEntity;
 
 @Component
-public class FXTradingLogic  {
+public class FXTrading {
 	
 	private List<FXTradingEntity> bookedTradesEntities=new ArrayList<>();
 	
